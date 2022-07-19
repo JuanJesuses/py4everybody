@@ -19,7 +19,7 @@ except:
     exit()
 
 diccionario_dias = dict()
-contador = 1
+
 for linea in archivo:
     if linea.startswith('From'):
         if linea.startswith('From:'):
